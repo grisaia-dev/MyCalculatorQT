@@ -64,7 +64,7 @@ QString Window::getResourcePath() {
 #if defined (Q_OS_APPLE)
     return QApplication::applicationDirPath() + "/../Resources/";
 #else
-    return QApplication::applicationDirPath() + "/";
+    return QApplication::applicationDirPath() + "/Resources/";
 #endif
 }
 

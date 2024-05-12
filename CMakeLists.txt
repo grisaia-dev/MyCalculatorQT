@@ -51,12 +51,13 @@ if(Qt6_FOUND)
 	if(WIN32)
 	   #MAKE DIR AND COPY RESOURCE FILES FOR EXE FILE
 	   message(STATUS "Make resources dir")
-	   file(MAKE_DIRECTORY ${BIN}/Resources)
+	   file(MAKE_DIRECTORY ${BIN}/Debug/Resources)
 	   message(STATUS "Copy file in resources dir")
-	   file(COPY ${CMAKE_SOURCE_DIR}/res/window.qss DESTINATION ${BIN}/resources)
-	   file(COPY ${CMAKE_SOURCE_DIR}/res/icons/icon.png DESTINATION ${BIN}/resources)
+	   file(COPY ${CMAKE_SOURCE_DIR}/res/window.qss DESTINATION ${BIN}/Debug/Resources)
+	   file(COPY ${CMAKE_SOURCE_DIR}/res/icons/icon.png DESTINATION ${BIN}/Debug/Resources)
+	   file(COPY ${CMAKE_SOURCE_DIR}/res/icons/icon.ico DESTINATION ${BIN}/Debug/Resources)
 
-	   set(APP_ICON "${CMAKE_CURRENT_SOURCE_DIR}/bin/resources/icon.png")
+	   set(APP_ICON "${CMAKE_CURRENT_SOURCE_DIR}/bin/Debug/Resources/icon.ico")
 	   qt_add_executable(${PROJECT_NAME} MANUAL_FINALIZATION ${PROJECT_SOURCE_FILES} ${PROJECT_HEADER_FILES} ${APP_ICON})
 	endif()
 
@@ -73,7 +74,6 @@ if(Qt6_FOUND)
 			Qt${QT_VERSION_MAJOR}::Widgets
 			Qt${QT_VERSION_MAJOR}::Core
 	)
-
 else()
 	message(FATAL_ERROR "QT NOT FOUND!")
 endif()
