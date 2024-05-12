@@ -1,0 +1,237 @@
+#header_2 {
+    background-color: rgb(20, 20, 20);
+    border-top: 1px solid rgb(44, 44, 44);
+    border-left: 1px solid rgb(44, 44, 44);
+    border-right: 1px solid rgb(44, 44, 44);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#body_2 {
+    background-color: rgb(24, 24, 24);
+    border-left: 1px solid rgb(44, 44, 44);
+    border-right: 1px solid rgb(44, 44, 44);
+    border-bottom: 1px solid rgb(44, 44, 44);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+QLabel#name {
+    color: white;
+    margin-left: 0px;
+}
+
+QLabel#text {
+    color: white;
+    margin-right: 5px;
+    font-size: 32px;
+}
+QLabel#icon {
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+QPushButton {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+QPushButton:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+QPushButton:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+
+QPushButton#btn_zero,
+QPushButton#btn_one,
+QPushButton#btn_two,
+QPushButton#btn_three,
+QPushButton#btn_four,
+QPushButton#btn_five,
+QPushButton#btn_six,
+QPushButton#btn_seven,
+QPushButton#btn_ate,
+QPushButton#btn_nine,
+QPushButton#btn_dot,
+QPushButton#btn_minus_or_plus {
+    background-color: rgb(36, 36, 36);
+}
+
+QPushButton#btn_zero:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_one:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_two:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_three:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_four:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_five:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_six:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_seven:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_ate:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_nine:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_dot:hover {
+    background-color: rgb(44, 44, 44);
+}
+QPushButton#btn_minus_or_plus:hover {
+    background-color: rgb(44, 44, 44);
+}
+
+QPushButton#btn_zero:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_one:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_two:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_three:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_four:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_five:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_six:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_seven:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_ate:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_nine:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_dot:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+QPushButton#btn_minus_or_plus:pressed {
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    border: 1px solid rgb(34, 34, 34);
+}
+
+QPushButton#btn_equal {
+    background-color: rgb(0, 100, 227);
+    color: black;
+}
+
+QPushButton#btn_equal:hover {
+    background-color: rgb(0, 128, 255);
+}
+
+QPushButton#btn_equal:pressed {
+    background-color: rgb(0, 90, 217);
+}
+
+QPushButton#btn_close {
+    background-color: rgb(20, 20, 20);
+    border-top: 1px solid rgb(44, 44, 44);
+    border-right: 1px solid rgb(44, 44, 44);
+    border-bottom: 0px solid rgb(44, 44, 44);
+    border-left: 0px solid rgb(44, 44, 44);
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+QPushButton#btn_close:hover {
+    background-color: red;
+    color: black;
+}
+
+QPushButton#btn_close:pressed {
+    background-color: rgb(200, 0, 0);
+    color: black;
+}
+
+QPushButton#btn_minimize {
+    background-color: rgb(20, 20, 20);
+    border-top: 1px solid rgb(44, 44, 44);
+    border-right: 0px solid rgb(44, 44, 44);
+    border-bottom: 0px solid rgb(44, 44, 44);
+    border-left: 0px solid rgb(44, 44, 44);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+QPushButton#btn_minimize:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+QPushButton#btn_minimize:pressed {
+    background-color: rgb(26, 26, 26);
+}
