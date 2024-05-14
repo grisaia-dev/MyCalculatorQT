@@ -191,6 +191,8 @@ QPushButton#btn_close {
     color: white;
     font-size: 10px;
     padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
@@ -220,8 +222,8 @@ QPushButton#btn_minimize {
     color: white;
     font-size: 10px;
     padding: 5px;
-    padding-right: 7px;
-    padding-left: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
